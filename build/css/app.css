@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;
+}
+body,html{
+    background: #f2f2f2;
+}
+.b-d{
+    width: 900px;
+    margin:0 auto;
+    background: #fff;
+    margin-top:20px;
+    padding:10px;
+}
+.s-b{
+    width: 300px;
+    height: 40px;
+    border-radius: 4px;
+    border:1px solid rgb(59, 165, 235);
+    font-size: 16px;
+    box-sizing: border-box;
+    padding: 0 5px;
+}
+#searchBtn{
+    height: 40px;
+    width: 100px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}

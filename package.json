@@ -1,0 +1,22 @@
+{
+  "name": "hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "koa-static": "^5.0.0"
+  },
+  "devDependencies": {
+    "koa": "^2.5.2",
+    "koa-compose": "^4.1.0",
+    "koa-route": "^3.2.0",
+    "koa-router": "^7.4.0",
+    "monk": "^6.0.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
