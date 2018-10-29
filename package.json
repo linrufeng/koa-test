@@ -17,7 +17,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
-    "start2": "node koabody.js"
+    "start2": "node koabody.js",
+    "start3": "node err.js"
   },
   "author": "",
   "license": "ISC"

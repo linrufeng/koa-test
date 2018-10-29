@@ -7,7 +7,25 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
+            "name": "app",
+            "program": "${workspaceFolder}/app.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "err",
+            "program": "${workspaceFolder}/err.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "isListenMustBeInTheLast",
+            "program": "${workspaceFolder}/isListenMustBeInTheLast.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "asyncawait",
             "program": "${workspaceFolder}/asyncawait.js"
         },
         {
