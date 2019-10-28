@@ -1,25 +1,25 @@
 {
-  "name": "hw",
+  "name": "koatest",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-    "koa-static": "^5.0.0"
-  },
-  "devDependencies": {
-    "koa": "^2.5.2",
-    "koa-body": "^4.0.4",
-    "koa-compose": "^4.1.0",
-    "koa-route": "^3.2.0",
-    "koa-router": "^7.4.0",
-    "monk": "^6.0.6"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
-    "start2": "node koabody.js",
-    "start3": "node err.js"
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linrufeng/koa-test.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linrufeng/koa-test/issues"
+  },
+  "homepage": "https://github.com/linrufeng/koa-test#readme",
+  "dependencies": {
+    "mongoose": "^5.7.7"
+  },
+  "devDependencies": {
+    "monk": "^7.1.1"
+  }
 }
